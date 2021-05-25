@@ -1,0 +1,73 @@
+* {box-sizing: border-box;}
+.air {
+  max-width: 350px;
+  padding: 20px;
+  background: #E4E3DF;
+  font-family: 'Oswald', sans-serif;
+}
+.form-inner {
+  border: 2px solid #909090;
+  border-bottom: none;
+}
+.form-row {
+  position: relative;
+  padding: 10px;
+  border-bottom: 2px solid #909090;
+}
+.form-row label {
+  display: block;
+}
+.form-row input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  line-height: 30px;
+  border-width: 0;
+  background: #E4E3DF;
+}
+.form-row textarea {
+  width: 100%;
+  margin-bottom:40px;
+  padding: 0;
+  outline: 0;
+  line-height: 40px;
+  background: transparent url(https://html5book.ru/wp-content/uploads/2016/12/bg-form.png) bottom left repeat-x;
+  background-size: 8px 40px;
+  letter-spacing: 0.2em;
+  background-attachment: local;
+  background-repeat: repeat;
+  border-width: 0;
+  resize: none;
+}
+.form-row-icon {
+  position: relative;
+  border-bottom: 2px solid #909090;
+}
+.form-row-icon .fa {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #909090;
+  color: #E4E3DF;
+  border-bottom: 2px solid;
+}
+.form-row-icon input {
+  display: block;
+  width: 100%;
+  padding: 0 10px 0 50px;
+  line-height: 40px;
+  box-sizing: border-box;
+  border-width: 0;
+  background: #E4E3DF;
+}
+.form-row-icon .fa-paper-plane-o {
+  border-bottom-color: #909090;
+  cursor: pointer;
+}
+.form-row-icon input[type="submit"] {
+  cursor: pointer;
+}
